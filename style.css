@@ -1,0 +1,16 @@
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 2px;
+    width: 306px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    background-color: #eee;
+    cursor: pointer;
+}
